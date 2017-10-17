@@ -206,7 +206,8 @@ export class NgxCarouselComponent implements OnInit, AfterContentInit, AfterView
     } else {
       this.renderer.setElementClass(this.pointMain.nativeElement, 'ngxcarouselPointDefault', true);
     }
-
+      const slideCss = "." + this.data.classText + " .ngxcarousel-items { transform: translate3d(4%, 0, 0);";
+      this.carouselInner.querySelectorAll('style')[0].innerHTML = slideCss;
   }
 
   ngOnDestroy() {
@@ -547,7 +548,9 @@ export class NgxCarouselComponent implements OnInit, AfterContentInit, AfterView
   private transformStyle(slide: number): void {
     let slideCss = '';
     if (this.data.type === 'responsive') {
-      this.data.transform.xs = 100 / this.userData.grid.xs * slide;
+        // SHANI - center the item
+        this.data.transform.xs = Math.abs(5-(90 / this.userData.grid.xs * slide));
+      // this.data.transform.xs = 100 / this.userData.grid.xs * slide;
       this.data.transform.sm = 100 / this.userData.grid.sm * slide;
       this.data.transform.md = 100 / this.userData.grid.md * slide;
       this.data.transform.lg = 100 / this.userData.grid.lg * slide;
@@ -563,6 +566,12 @@ export class NgxCarouselComponent implements OnInit, AfterContentInit, AfterView
     } else {
       this.data.transform.all = this.userData.grid.all * slide;
       slideCss = `.${this.data.classText} .ngxcarousel-items { transform: translate3d(-${this.data.transform.all}px, 0, 0);`;
+    }
+    // SHANI - append css
+    if (this.data.transform.xs === 5) {
+        slideCss = "." + this.data.classText + " .ngxcarousel-items { transform: translate3d(4%, 0, 0);";
+    } else {
+        slideCss = "@media (max-width: 767px) {\n              ." + this.data.classText + " .ngxcarousel-items { transform: translate3d(-" + this.data.transform.xs + "%, 0, 0); } }\n            @media (min-width: 768px) {\n              ." + this.data.classText + " .ngxcarousel-items { transform: translate3d(-" + this.data.transform.sm + "%, 0, 0); } }\n            @media (min-width: 992px) {\n              ." + this.data.classText + " .ngxcarousel-items { transform: translate3d(-" + this.data.transform.md + "%, 0, 0); } }\n            @media (min-width: 1200px) {\n              ." + this.data.classText + " .ngxcarousel-items { transform: translate3d(-" + this.data.transform.lg + "%, 0, 0); } }";
     }
     this.carouselInner.querySelectorAll('style')[0].innerHTML = slideCss;
   }

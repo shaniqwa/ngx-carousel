@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bb6e258-52ac-419c-b8e5-61e03416ca78" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js" afterPath="$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ts" afterPath="$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,14 +16,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ngx-carousel.component.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="ngx-carousel.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="389" column="33" lean-forward="true" selection-start-line="389" selection-start-column="33" selection-end-line="389" selection-end-column="33" />
+            <state relative-caret-position="4197">
+              <caret line="569" column="25" lean-forward="true" selection-start-line="569" selection-start-column="25" selection-end-line="569" selection-end-column="25" />
               <folding>
-                <marker date="1508228859839" expanded="true" signature="25724:25735" ph="..." />
+                <element signature="e#0#126#0" expanded="true" />
+                <marker date="1508230198066" expanded="true" signature="768:779" ph="..." />
               </folding>
             </state>
           </provider>
@@ -35,6 +37,8 @@
       <find>NgxCarouselComponent</find>
       <find>NgxCarouselComponent.prototype.ngAfterContentInit</find>
       <find>NgxCarouselComponent.prototype.transformStyle</find>
+      <find>shani</find>
+      <find>transformStyle</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\shaniqwa\Documents\Angular Projects\forked\ngx-carousel</dir>
@@ -47,6 +51,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js" />
+        <option value="$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ts" />
       </list>
     </option>
   </component>
@@ -104,8 +109,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -113,6 +118,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,34 +145,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508228604864</updated>
-      <workItem from="1508228606325" duration="263000" />
+      <workItem from="1508228606325" duration="425000" />
+      <workItem from="1508230050598" duration="187000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263000" />
+    <option name="totallyTimeSpent" value="612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -181,9 +188,75 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1508228559610" expanded="true" signature="703:764" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="776:819" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="789:816" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="844:847" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="903:982" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="995:1504" ph="{&quot;selector&quot;: 'sample'...}" />
+              <marker date="1508228559610" expanded="true" signature="1553:2113" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1605:1868" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1630:1864" ph="{&quot;custom&quot;: 'banner'...}" />
+              <marker date="1508228559610" expanded="true" signature="1751:1782" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1900:2109" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1907:2105" ph="//..." />
+              <marker date="1508228559610" expanded="true" signature="2180:2404" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="2424:2498" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="4405:4500" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="4722:4801" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="4814:6046" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="5387:6044" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="6086:7112" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6102:7107" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6131:7103" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6252:7045" ph="{&quot;pointStyles&quot;: `&#10;          .ngxcarouselPoint {&#10;            list-style-type: none;&#10;            text-align: center;&#10;            padding: 12px;&#10;            margin: 0;&#10;            white-space: nowrap;&#10;            overflow: auto;&#10;            position: absolute;&#10;            width: 100%;&#10;            bottom: 20px;&#10;            left: 0;&#10;            box-sizing: border-box;&#10;          }&#10;          .ngxcarouselPoint li {&#10;            display: inline-block;&#10;            border-radius: 999px;&#10;            background: rgba(255, 255, 255, 0.55);&#10;            padding: 5px;&#10;            margin: 0 3px;&#10;            transition: .4s ease all;&#10;          }&#10;          .ngxcarouselPoint li.active {&#10;              background: white;&#10;              width: 10px;&#10;          }&#10;        `...}" />
+              <marker date="1508228559610" expanded="true" signature="7149:7228" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="7241:8324" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="7686:8322" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="8364:9200" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8456:8781" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8560:8777" ph="{&quot;animation&quot;: 'lazy'...}" />
+              <marker date="1508228559610" expanded="true" signature="8684:8715" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8819:8992" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8887:8987" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8932:8981" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8999:9197" ph="//..." />
+              <marker date="1508228559610" expanded="true" signature="9260:9339" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="9352:10435" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="9797:10433" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="10475:12044" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="10567:11625" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="10671:11621" ph="{&quot;animation&quot;: 'lazy'...}" />
+              <marker date="1508228559610" expanded="true" signature="10795:11559" ph="{&quot;pointStyles&quot;: `&#10;          .ngxcarouselPoint {&#10;            list-style-type: none;&#10;            text-align: center;&#10;            padding: 12px;&#10;            margin: 0;&#10;            white-space: nowrap;&#10;            overflow: auto;&#10;            box-sizing: border-box;&#10;          }&#10;          .ngxcarouselPoint li {&#10;            display: inline-block;&#10;            border-radius: 50%;&#10;            border: 2px solid rgba(0, 0, 0, 0.55);&#10;            padding: 4px;&#10;            margin: 0 3px;&#10;            transition-timing-function: cubic-bezier(.17, .67, .83, .67);&#10;            transition: .4s;&#10;          }&#10;          .ngxcarouselPoint li.active {&#10;              background: ##6b6b6b;&#10;              transform: scale(1.2);&#10;          }&#10;        `...}" />
+              <marker date="1508228559610" expanded="true" signature="11663:11836" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11731:11831" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11776:11825" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11843:12041" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="389" column="33" lean-forward="true" selection-start-line="389" selection-start-column="33" selection-end-line="389" selection-end-column="33" />
+          <folding>
+            <marker date="1508228988231" expanded="true" signature="25724:25735" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ngfactory.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-132">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -191,12 +264,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/src/ngx-carousel/ngx-carousel.component.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1508228559610" expanded="true" signature="703:764" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="776:819" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="789:816" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="844:847" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="903:982" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="995:1504" ph="{&quot;selector&quot;: 'sample'...}" />
+              <marker date="1508228559610" expanded="true" signature="1553:2113" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1605:1868" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1630:1864" ph="{&quot;custom&quot;: 'banner'...}" />
+              <marker date="1508228559610" expanded="true" signature="1751:1782" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1900:2109" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="1907:2105" ph="//..." />
+              <marker date="1508228559610" expanded="true" signature="2180:2404" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="2424:2498" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="4405:4500" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="4722:4801" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="4814:6046" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="5387:6044" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="6086:7112" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6102:7107" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6131:7103" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="6252:7045" ph="{&quot;pointStyles&quot;: `&#10;          .ngxcarouselPoint {&#10;            list-style-type: none;&#10;            text-align: center;&#10;            padding: 12px;&#10;            margin: 0;&#10;            white-space: nowrap;&#10;            overflow: auto;&#10;            position: absolute;&#10;            width: 100%;&#10;            bottom: 20px;&#10;            left: 0;&#10;            box-sizing: border-box;&#10;          }&#10;          .ngxcarouselPoint li {&#10;            display: inline-block;&#10;            border-radius: 999px;&#10;            background: rgba(255, 255, 255, 0.55);&#10;            padding: 5px;&#10;            margin: 0 3px;&#10;            transition: .4s ease all;&#10;          }&#10;          .ngxcarouselPoint li.active {&#10;              background: white;&#10;              width: 10px;&#10;          }&#10;        `...}" />
+              <marker date="1508228559610" expanded="true" signature="7149:7228" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="7241:8324" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="7686:8322" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="8364:9200" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8456:8781" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8560:8777" ph="{&quot;animation&quot;: 'lazy'...}" />
+              <marker date="1508228559610" expanded="true" signature="8684:8715" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8819:8992" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8887:8987" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8932:8981" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="8999:9197" ph="//..." />
+              <marker date="1508228559610" expanded="true" signature="9260:9339" ph="..." />
+              <marker date="1508228559610" expanded="true" signature="9352:10435" ph="{&quot;selector&quot;: 'app-carousel'...}" />
+              <marker date="1508228559610" expanded="true" signature="9797:10433" ph="[...]" />
+              <marker date="1508228559610" expanded="true" signature="10475:12044" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="10567:11625" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="10671:11621" ph="{&quot;animation&quot;: 'lazy'...}" />
+              <marker date="1508228559610" expanded="true" signature="10795:11559" ph="{&quot;pointStyles&quot;: `&#10;          .ngxcarouselPoint {&#10;            list-style-type: none;&#10;            text-align: center;&#10;            padding: 12px;&#10;            margin: 0;&#10;            white-space: nowrap;&#10;            overflow: auto;&#10;            box-sizing: border-box;&#10;          }&#10;          .ngxcarouselPoint li {&#10;            display: inline-block;&#10;            border-radius: 50%;&#10;            border: 2px solid rgba(0, 0, 0, 0.55);&#10;            padding: 4px;&#10;            margin: 0 3px;&#10;            transition-timing-function: cubic-bezier(.17, .67, .83, .67);&#10;            transition: .4s;&#10;          }&#10;          .ngxcarouselPoint li.active {&#10;              background: ##6b6b6b;&#10;              transform: scale(1.2);&#10;          }&#10;        `...}" />
+              <marker date="1508228559610" expanded="true" signature="11663:11836" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11731:11831" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11776:11825" ph="{...}" />
+              <marker date="1508228559610" expanded="true" signature="11843:12041" ph="//..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ngx-carousel/ngx-carousel.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="389" column="33" lean-forward="true" selection-start-line="389" selection-start-column="33" selection-end-line="389" selection-end-column="33" />
+        <state relative-caret-position="4197">
+          <caret line="569" column="25" lean-forward="true" selection-start-line="569" selection-start-column="25" selection-end-line="569" selection-end-column="25" />
           <folding>
-            <marker date="1508228859839" expanded="true" signature="25724:25735" ph="..." />
+            <element signature="e#0#126#0" expanded="true" />
+            <marker date="1508230198066" expanded="true" signature="768:779" ph="..." />
           </folding>
         </state>
       </provider>
